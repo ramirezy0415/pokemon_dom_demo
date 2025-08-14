@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+}
+.pokemon-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.pokemon-table th,
+.pokemon-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem 0.75rem;
+}
+.pokemon-table thead {
+  background: #f7f7f7;
+}
+.average {
+  margin: 0.5rem 0 1rem;
+  font-weight: 600;
+}
+
+.type-fire .cell-type {
+  color: #d24;
+}
+.type-water .cell-type {
+  color: #26c;
+}
+.type-grass .cell-type {
+  color: #2a4;
+}
